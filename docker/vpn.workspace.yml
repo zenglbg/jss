@@ -1,0 +1,8 @@
+
+
+services:
+  workspace:
+    build:
+      context: ./vpn
+    volumes:
+      - ~/work1/:/date/www
