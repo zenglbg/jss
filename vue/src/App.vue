@@ -8,6 +8,9 @@
     <transition-group name="list" tag="p" appear>
       <span v-for="item in items" v-bind:key="item" class="list-item">{{ item }}</span>
     </transition-group>
+
+
+    <p>fajfklqjifoq;</p>
   </div>
 </template>
 
@@ -35,7 +38,16 @@ export default {
   }
 }
 </script>
+<style>
+@font-face {
+  font-family: 'hello';
+  src: url('./assets/fonts/sunnday/Sunnday.ttf') format('truetype');
+}
 
+* {
+  font-family: 'hello' !important;
+}
+</style>
 <style lang="css" scoped>
 /*设置列表的样式*/
 .list-item {
